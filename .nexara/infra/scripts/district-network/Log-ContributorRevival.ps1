@@ -3,7 +3,7 @@
 # │ District Revival • Timestamped • Ethical   │
 # └────────────────────────────────────────────┘
 
-function Log-ContributorRevival {
+function Write-ContributorRevival {
     param (
         [string]$District,
         [string]$Name,

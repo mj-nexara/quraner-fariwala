@@ -30,9 +30,11 @@ function Create-RecognitionCertificate {
     $certificate += "🗓️ Date of Recognition: $Date"
     $certificate += "`n---`n"
     $certificate += "🛡️ This certificate honors the spiritual and operational contribution of $Name in the mission of Quraner Fariwala. Their efforts have helped deliver the Quran to hearts across Bangladesh."
-    $certificate += "`n"
-    $certificate += "> “To honor is to remember. To remember is to preserve.” — MJ Ahmad"
+ # ...existing code...
+$certificate += "`n"
+$certificate += '> “To honor is to remember. To remember is to preserve.” — MJ Ahmad'
 
-    $certificate | Out-File -FilePath $fullPath -Encoding UTF8
-    Write-Host "✅ Recognition certificate created for $Name in $District" -ForegroundColor Green
+$certificate | Out-File -FilePath $fullPath -Encoding UTF8
+Write-Host "✅ Recognition certificate created for $Name in $District" -ForegroundColor Green
+# ...existing code...
 }

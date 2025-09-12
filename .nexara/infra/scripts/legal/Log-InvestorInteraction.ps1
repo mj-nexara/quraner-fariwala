@@ -12,7 +12,7 @@ function Log-InvestorInteraction {
         [string]$VerifiedBy = "MJ Ahmad"
     )
 
-    $logPath = "C:\mj-ahmad\qf\Docs\Legal\Investors\$InvestorName\CommunicationLog.csv"
+    $logPath = "C:\quraner-fariwala\quraner-fariwala\Docs\Legal\Investors\$InvestorName\CommunicationLog.csv"
 
     # Ensure log file exists with headers
     if (-not (Test-Path $logPath)) {

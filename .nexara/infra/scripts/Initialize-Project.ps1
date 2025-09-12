@@ -1,9 +1,9 @@
 function Initialize-Project {
     param (
-        [string]$ProjectName = "qf"
+        [string]$ProjectName = "quraner-fariwala"
     )
 
-    $basePath = "C:\mj-ahmad\$ProjectName"
+    $basePath = "C:\quraner-fariwala\$ProjectName"
     $folders = @("docs", "scripts", "logs", "archive", "contributors")
 
     foreach ($folder in $folders) {

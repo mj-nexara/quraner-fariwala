@@ -7,7 +7,7 @@ function Create-PublicStatement {
     )
 
     $fileName = "$Title.md" -replace '[^\w\-]', '_'
-    $path = "C:\MJ-Ahmad\qf\Docs\Initiative2025\LegalSafeguards\PublicStatements\$fileName"
+    $path = "C:\quraner-fariwala\quraner-fariwala\Docs\Initiative2025\LegalSafeguards\PublicStatements\$fileName"
 
     $statement = @()
     $statement += "# ⚖️ $Title"

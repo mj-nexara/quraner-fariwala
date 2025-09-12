@@ -8,7 +8,7 @@ function Generate-LegalBrief {
         [string]$InvestorName
     )
 
-    $basePath     = "C:\mj-ahmad\qf\Docs\Legal\Investors\$InvestorName"
+    $basePath     = "C:\quraner-fariwala\quraner-fariwala\Docs\Legal\Investors\$InvestorName"
     $profilePath  = "$basePath\Profile.md"
     $statusPath   = "$basePath\Status.md"
     $incidentPath = "$basePath\IncidentReport.md"
